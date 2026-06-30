@@ -1,12 +1,27 @@
-# Academic Conference Demo Site
+# Academic Conference Demo Site — Multi-page Version
 
-This is a static academic conference website that can be hosted with GitHub Pages.
+This is a static multi-page academic conference website that can be hosted with GitHub Pages.
 
 ## Files
 
-- `index.html` — page content and structure
-- `styles.css` — visual design and responsive layout
-- `script.js` — small mobile menu interaction
+- `index.html` — homepage and conference overview
+- `cfp.html` — Call for Papers
+- `dates.html` — important dates and deadlines
+- `speakers.html` — keynote speakers
+- `programme.html` — draft schedule
+- `venue.html` — venue and travel information
+- `registration.html` — registration information
+- `contact.html` — contact and organiser details
+- `styles.css` — shared visual design and responsive layout
+- `script.js` — mobile menu and current-page highlighting
+
+## How to update an existing GitHub Pages repository
+
+1. Open your repository on GitHub.
+2. Upload all files from this folder to the repository root.
+3. Choose **replace** when GitHub asks about existing files such as `index.html`, `styles.css`, `script.js`, or `README.md`.
+4. Commit the changes.
+5. Wait for GitHub Pages to redeploy.
 
 ## How to publish with GitHub Pages
 
@@ -28,9 +43,3 @@ This is a static academic conference website that can be hosted with GitHub Page
 - Committee names
 - Contact email
 - Accessibility and travel information
-
-## Custom domain
-
-After GitHub Pages is working, add your domain in **Settings → Pages → Custom domain** and configure DNS with your domain provider.
-# web_demo
-# web_demo
